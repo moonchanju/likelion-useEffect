@@ -14,9 +14,8 @@ const TimerSwitch = () => {
             <button onClick={toggleTimer} className='border'>
                 {showTimer ? "타이머 숨기기" : "타이머 보이기"};
             </button>
-            <hr>
-                {showTimer && <Timer />}
-            </hr>
+            <hr />
+            {showTimer && <Timer />}
 
         </div>
     )
