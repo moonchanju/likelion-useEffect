@@ -1,9 +1,11 @@
 import React from 'react'
 import NameInput from './NameInput'
+import HookStructure from './HookStructure'
 
 const App = () => {
   return (
-    <div><NameInput/></div>
+    
+    <div><HookStructure></HookStructure></div>
   )
 }
 
